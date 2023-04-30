@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="slider-container">
+        <a class="arrow" id="left" href="#">←</a>
+        <div class="slider">
+          <ul class="items" id="items">
+            <li class="item">1</li>
+            <li class="item">2</li>
+            <li class="item">3</li>
+            <li class="item">4</li>
+            <li class="item">5</li>
+            <li class="item">6</li>
+            <li class="item">7</li>
+            <li class="item">8</li>
+          </div>
+        </li>
+        <a class="arrow" id="right" href="#">→</a>
+      </div>
+      <!-- modal start -->
+      <div class="container">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem magnam
+          ratione quasi alias adipisci molestias doloribus, provident eum natus
+          rerum, numquam delectus cum at nobis consectetur deserunt perspiciatis
+          eveniet temporibus.
+        </p>
+        <button class="btn" id="openOverlay">открыть</button>
+      </div>
+      <!-- modal end -->
+      <!-- создание блоков -->
+      <div class="blocks-coloring-container">
+        <div class="controls">
+          <input type="number" min="0" class="quantity-selector" />
+          <input type="color" class="color-selector" />
+        </div>
+        <div class="blocks"></div>
+      </div>
+      <!-- создание блоков -->
+    <script src="./common/tasks.js"></script>
+    <script src="./DOM/slider.js"></script>
+    <script src="./DOM/modal.js"></script>
+    <script src="./DOM/blocks.js"></script>
+</body>
+</html>
